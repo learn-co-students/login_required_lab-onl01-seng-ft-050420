@@ -1,0 +1,5 @@
+<h1>Welcome Home!</h1>
+<%= link_to "Super Secret Link", secrets_path %>
+<%= form_tag ({controller: 'sessions', action: 'destroy', method: 'post'}) do %>
+    <%= submit_tag "Log Out" %>
+<% end %>
